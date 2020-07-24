@@ -93,7 +93,7 @@ def train_model(x, y, learning_rate=100, iter_time=1000, eps=0.0000000001):
 
 def test_model(mean_x, std_x):
     testdata = pd.read_csv('../data/hw1/test.csv', header=None, encoding='big5')
-    test_data = testdata.iloc[:, 2:]
+    test_data = testdata.iloc[:, 2:].copy()
     test_data[test_data == 'NR'] = 0
     test_data = test_data.to_numpy()
     test_x = np.empty([240, 18 * 9], dtype=float)
