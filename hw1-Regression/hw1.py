@@ -7,6 +7,7 @@ import numpy as np
 import pandas as pd
 import math
 import csv
+import torch
 
 """
     任务：由前9个小时的18个特征，预测第10个小时的PM2.5（PM2.5是第10个特征）

@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="11e4fc0b-dbac-4ed0-8984-fc44e55bbf56" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw1-Regression/submit.csv" beforeDir="false" afterPath="$PROJECT_DIR$/hw1-Regression/submit.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw1-Regression/weight.npy" beforeDir="false" afterPath="$PROJECT_DIR$/hw1-Regression/weight.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/hw1/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/hw1/test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/hw1/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/hw1/train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw1-Regression/hw1.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw1-Regression/hw1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +25,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="D:/python3.7.4(64-bit)/python.exe" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.hw1">
     <configuration name="hw1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MachineLearning-LHY" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -50,9 +57,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="hw2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MachineLearning-LHY" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw2-Classification" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw2-Classification/hw2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.hw1" />
+      <item itemvalue="Python.hw2" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.hw1" />
+        <item itemvalue="Python.hw2" />
       </list>
     </recent_temporary>
   </component>
@@ -66,7 +100,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595597646108</updated>
-      <workItem from="1595597647233" duration="484000" />
+      <workItem from="1595597647233" duration="5880000" />
+      <workItem from="1595642655144" duration="2530000" />
     </task>
     <servers />
   </component>
@@ -78,22 +113,22 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="188" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.797@0.23.1440.797" timestamp="1595598073625" />
-    <state width="1358" height="191" key="GridCell.Tab.0.bottom" timestamp="1595598046931">
+    <state width="1358" height="191" key="GridCell.Tab.0.bottom" timestamp="1595608887951">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1358" height="191" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1595598046931" />
-    <state width="1358" height="191" key="GridCell.Tab.0.center" timestamp="1595598046930">
+    <state width="1358" height="191" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1595608887951" />
+    <state width="1358" height="191" key="GridCell.Tab.0.center" timestamp="1595608887951">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1358" height="191" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1595598046930" />
-    <state width="1358" height="191" key="GridCell.Tab.0.left" timestamp="1595598046929">
+    <state width="1358" height="191" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1595608887951" />
+    <state width="1358" height="191" key="GridCell.Tab.0.left" timestamp="1595608887951">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1358" height="191" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1595598046929" />
-    <state width="1358" height="191" key="GridCell.Tab.0.right" timestamp="1595598046930">
+    <state width="1358" height="191" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1595608887951" />
+    <state width="1358" height="191" key="GridCell.Tab.0.right" timestamp="1595608887951">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
-    <state width="1358" height="191" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1595598046930" />
+    <state width="1358" height="191" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1595608887951" />
     <state width="1358" height="238" key="GridCell.Tab.1.bottom" timestamp="1595597790846">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
@@ -117,7 +152,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MachineLearning_LHY$pytest_in_hw2_py.coverage" NAME="pytest in hw2.py Coverage Results" MODIFIED="1595598046916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw2-Classification" />
-    <SUITE FILE_PATH="coverage/MachineLearning_LHY$hw1.coverage" NAME="hw1 Coverage Results" MODIFIED="1595597916423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw1-Regression" />
+    <SUITE FILE_PATH="coverage/MachineLearning_LHY$hw2.coverage" NAME="hw2 Coverage Results" MODIFIED="1595598136530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw2-Classification" />
+    <SUITE FILE_PATH="coverage/MachineLearning_LHY$hw1.coverage" NAME="hw1 Coverage Results" MODIFIED="1595600718565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw1-Regression" />
     <SUITE FILE_PATH="coverage/MachineLearning_LHY$pytest_in_hw1_py.coverage" NAME="pytest in hw1.py Coverage Results" MODIFIED="1595597743751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw1-Regression" />
   </component>
 </project>
