@@ -68,7 +68,7 @@ print(X.view(-1, C, 784).shape)  # automatically choose the 0th dimension
         遍历所有的维度，从尾部维度开始，每个对应的维度大小要么相同，要么其中一个是1，要么其中一个不存在
 """
 x = torch.empty(5, 1, 4, 1)
-y = torch.empty(3, 1, 1)
+y = torch.empty(   3, 1, 1)
 print((x + y).size())  # 5,3,4,1
 
 """
@@ -216,7 +216,7 @@ example_tensor = torch.tensor([[1.,2,3],[4,5,6]])
 transformed = model(example_tensor)
 print('transformed', transformed.shape)
 
-params = model.parameters()
+params = model.parameters() #可以获得模型的所有参数
 for param in params:
     print(param)
 
@@ -249,15 +249,15 @@ X_simple = torch.tensor([[1.]])
 y_simple = torch.tensor([[2.]])
 
 # create our optimizer
-optim = torch.optim.SGD(model.parameters(), lr=1e-2)
+optim = torch.optim.SGD(model.parameters(), lr=1e-2) # optim必须传入model的参数
 mse_loss_fn = nn.MSELoss()
 
 y_hat = model(X_simple)
 print('model params before:', model.weight)
 loss = mse_loss_fn(y_hat, y_simple)
-optim.zero_grad()
+optim.zero_grad()  #梯度归零，不然会累加之前的梯度
 loss.backward()
-optim.step()
+optim.step() # 会 自动做SGD or Adam
 print('model params after:', model.weight)
 
 
