@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="11e4fc0b-dbac-4ed0-8984-fc44e55bbf56" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -40,9 +58,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Python.hw5">
+  <component name="RunManager" selected="Python.hw6">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="MachineLearning-LHY" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,28 +97,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw1-Regression/hw1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="hw2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MachineLearning-LHY" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw2-Classification" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw2-Classification/hw2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,9 +153,6 @@
       <module name="MachineLearning-LHY" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw5-ExplainableAI" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -175,20 +168,39 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="hw6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MachineLearning-LHY" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hw6-Adversarial Attack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw6-Adversarial Attack/hw6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.hw1" />
-      <item itemvalue="Python.hw2" />
       <item itemvalue="Python.hw3" />
       <item itemvalue="Python.hw4" />
       <item itemvalue="Python.hw5" />
+      <item itemvalue="Python.hw6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hw6" />
         <item itemvalue="Python.hw5" />
         <item itemvalue="Python.hw3" />
         <item itemvalue="Python.hw4" />
         <item itemvalue="Python.hw1" />
-        <item itemvalue="Python.hw2" />
       </list>
     </recent_temporary>
   </component>
@@ -216,11 +228,23 @@
       <workItem from="1596717583327" duration="4000" />
       <workItem from="1596721904834" duration="4677000" />
       <workItem from="1598099822897" duration="1780000" />
+      <workItem from="1598150915491" duration="7480000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="188" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595598073625">
@@ -236,59 +260,59 @@
     </state>
     <state width="726" height="438" key="DebuggerActiveHint/0.23.1440.877@0.23.1440.877" timestamp="1595866090882" />
     <state width="726" height="438" key="DebuggerActiveHint/1440.23.1080.723/0.23.1440.877@0.23.1440.877" timestamp="1596356616447" />
-    <state width="1398" height="252" key="GridCell.Tab.0.bottom" timestamp="1598102801755">
+    <state width="1398" height="252" key="GridCell.Tab.0.bottom" timestamp="1598253270902">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1358" height="191" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1595608887951" />
-    <state width="1398" height="252" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1598102801755" />
+    <state width="1398" height="252" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1598253270902" />
     <state width="1398" height="252" key="GridCell.Tab.0.bottom/1440.23.1080.723/0.23.1440.877@0.23.1440.877" timestamp="1596358025906" />
-    <state width="1398" height="252" key="GridCell.Tab.0.center" timestamp="1598102801754">
+    <state width="1398" height="252" key="GridCell.Tab.0.center" timestamp="1598253270900">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1358" height="191" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1595608887951" />
-    <state width="1398" height="252" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1598102801754" />
+    <state width="1398" height="252" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1598253270900" />
     <state width="1398" height="252" key="GridCell.Tab.0.center/1440.23.1080.723/0.23.1440.877@0.23.1440.877" timestamp="1596358025906" />
-    <state width="1398" height="252" key="GridCell.Tab.0.left" timestamp="1598102801754">
+    <state width="1398" height="252" key="GridCell.Tab.0.left" timestamp="1598253270898">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1358" height="191" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1595608887951" />
-    <state width="1398" height="252" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1598102801754" />
+    <state width="1398" height="252" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1598253270898" />
     <state width="1398" height="252" key="GridCell.Tab.0.left/1440.23.1080.723/0.23.1440.877@0.23.1440.877" timestamp="1596358025905" />
-    <state width="1398" height="252" key="GridCell.Tab.0.right" timestamp="1598102801755">
+    <state width="1398" height="252" key="GridCell.Tab.0.right" timestamp="1598253270901">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1358" height="191" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1595608887951" />
-    <state width="1398" height="252" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1598102801755" />
+    <state width="1398" height="252" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1598253270901" />
     <state width="1398" height="252" key="GridCell.Tab.0.right/1440.23.1080.723/0.23.1440.877@0.23.1440.877" timestamp="1596358025906" />
-    <state width="1398" height="252" key="GridCell.Tab.1.bottom" timestamp="1598102801756">
+    <state width="1398" height="252" key="GridCell.Tab.1.bottom" timestamp="1598253269911">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1358" height="238" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1595597790846" />
-    <state width="1398" height="252" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1598102801756" />
+    <state width="1398" height="252" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1598253269911" />
     <state width="1398" height="252" key="GridCell.Tab.1.bottom/1440.23.1080.723/0.23.1440.877@0.23.1440.877" timestamp="1596358025908" />
-    <state width="1398" height="252" key="GridCell.Tab.1.center" timestamp="1598102801756">
+    <state width="1398" height="252" key="GridCell.Tab.1.center" timestamp="1598253269910">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1358" height="238" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1595597790845" />
-    <state width="1398" height="252" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1598102801756" />
+    <state width="1398" height="252" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1598253269910" />
     <state width="1398" height="252" key="GridCell.Tab.1.center/1440.23.1080.723/0.23.1440.877@0.23.1440.877" timestamp="1596358025907" />
-    <state width="1398" height="252" key="GridCell.Tab.1.left" timestamp="1598102801756">
+    <state width="1398" height="252" key="GridCell.Tab.1.left" timestamp="1598253269910">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1358" height="238" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1595597790845" />
-    <state width="1398" height="252" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1598102801756" />
+    <state width="1398" height="252" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1598253269910" />
     <state width="1398" height="252" key="GridCell.Tab.1.left/1440.23.1080.723/0.23.1440.877@0.23.1440.877" timestamp="1596358025907" />
-    <state width="1398" height="252" key="GridCell.Tab.1.right" timestamp="1598102801756">
+    <state width="1398" height="252" key="GridCell.Tab.1.right" timestamp="1598253269911">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1358" height="238" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1595597790845" />
-    <state width="1398" height="252" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1598102801756" />
+    <state width="1398" height="252" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1598253269911" />
     <state width="1398" height="252" key="GridCell.Tab.1.right/1440.23.1080.723/0.23.1440.877@0.23.1440.877" timestamp="1596358025907" />
-    <state x="175" y="68" key="SettingsEditor" timestamp="1596296976130">
+    <state x="225" y="66" key="SettingsEditor" timestamp="1598233183860">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="225" y="62" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1595598132414" />
-    <state x="225" y="66" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1595732395217" />
+    <state x="225" y="66" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1598233183860" />
     <state x="175" y="68" key="SettingsEditor/1440.23.1080.723/0.23.1440.877@0.23.1440.877" timestamp="1596296976130" />
     <state width="654" height="417" key="XDebugger.FullValuePopup" timestamp="1596725827759">
       <screen x="0" y="23" width="1440" height="877" />
@@ -303,10 +327,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="415" y="73" width="598" height="735" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1595776493815" />
-    <state width="600" height="428" key="javadoc.popup" timestamp="1596294632811">
+    <state width="600" height="428" key="javadoc.popup" timestamp="1598152796525">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="600" height="428" key="javadoc.popup/0.23.1440.877@0.23.1440.877" timestamp="1596279972131" />
+    <state width="600" height="428" key="javadoc.popup/0.23.1440.877@0.23.1440.877" timestamp="1598152796525" />
     <state width="600" height="428" key="javadoc.popup/1440.23.1080.723/0.23.1440.877@0.23.1440.877" timestamp="1596294632811" />
     <state x="379" y="222" width="670" height="676" key="search.everywhere.popup" timestamp="1596293721790">
       <screen x="0" y="23" width="1440" height="877" />
@@ -326,11 +350,17 @@
           <line>238</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hw6-Adversarial Attack/hw6.py</url>
+          <line>135</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MachineLearning_LHY$hw3.coverage" NAME="hw3 Coverage Results" MODIFIED="1596725420485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw3-CNN" />
+    <SUITE FILE_PATH="coverage/MachineLearning_LHY$hw6.coverage" NAME="hw6 Coverage Results" MODIFIED="1598253200430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw6-Adversarial Attack" />
     <SUITE FILE_PATH="coverage/MachineLearning_LHY$hw4.coverage" NAME="hw4 Coverage Results" MODIFIED="1596378870242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw4-RNN" />
     <SUITE FILE_PATH="coverage/MachineLearning_LHY$pytest_in_hw2_py.coverage" NAME="pytest in hw2.py Coverage Results" MODIFIED="1595598046916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw2-Classification" />
     <SUITE FILE_PATH="coverage/MachineLearning_LHY$hw2.coverage" NAME="hw2 Coverage Results" MODIFIED="1595598136530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hw2-Classification" />
